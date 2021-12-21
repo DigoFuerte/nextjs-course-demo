@@ -67,7 +67,8 @@ export const getStaticPaths = async () => {
     //   { params: {meetupId: 'm4'} },
     //   { params: {meetupId: 'm5'} },
     // ],
-    fallback: false,
+    // fallback: false,
+    fallback: 'blocking',
   }
 }
 // fallback: false ... when paths supports all possible paths
